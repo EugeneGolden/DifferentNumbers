@@ -40,7 +40,7 @@ namespace DifferentNumbers
             n = int.Parse(Console.ReadLine());
             UniqueNumbers cdn = new UniqueNumbers();
             amount = cdn.FindUniqueNumbers(n);
-            Console.WriteLine("Amount of different numbers is " + amount);
+            Console.WriteLine("Amount of different numbers is " +  amount);
             Console.ReadKey();
         }
     }
